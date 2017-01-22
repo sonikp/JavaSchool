@@ -1,0 +1,218 @@
+Java II 
+
+Week 1 Chapter 1-3
+
+
+Chapter 1
+
+Introduction:
+
+- A program or algoritbm is like a recipe.
+- Fundamentally, compyters are encoding/decoding machines
+- Moore's law: the number of transistors on a chip doubles every two years.
+- Initially stated to be 12 months, then extended to 18 months, and finally it was extended to 2 years
+- Computer Science is the study of process. Process is important to nearly every field, from biz to science to law
+- Software is nothing but applied metaphysics, following this list of questions:
+	- What is identity?
+	- What is an object?
+	- How and when are objects created and destroyed?
+	- What do my objects mean and why?
+	- How do my objects discover each other?
+	- What are the abstractions that are shared by my objects?
+- Learning mainly to maniplate media
+
+- Emergence: is a fascinating phenomenon that spontaneously manifests within nature as well as within complex software systems.
+- The ramifications of the emergence phenomenon may tell us a great amount about how consciousness has evolved, and may help us learn how to create more interesting virtual worlds
+
+Extra reading: 
+	- Chaos, by James Gleick
+	- Turtles, termites and traffic jams: Explorations in Massively parallel Microworlds, by Mitchel Resnick
+	- Exploring the Digital Domain, by Ken Abernethy and Tom Allen
+	- Emergence: The connected Lives of Ants, Brains, Cities and Software, by Steven Johnson
+
+DrJava - Your Principal IDE
+
+	- Has an interactions pane. This pane allows you to issue Java statements that are executed imediately as part of an interactive dialog with an underlying Java interpreter
+	- Immediate feedback
+	- This helps to address a common problem with online courses, namely: "how do students get feedback so that they can know they are on track"
+	- To get most out of the of the course, you must use DrJava
+
+Classes and Objects:
+	- Classes are Object factories - with a Class, you can create any number of Objects from it.
+	- The Class defines the details of the structure and the behavior associated with the Objects that it creates
+	- One analogy often used to explain the relationship between a Class and the Objects it creates is the process of making cookies:
+		- To make cookies, one rolls out the cookie dough into a flat surface
+		- The cookie cutter is like a Class
+		- the stamped-out cookies are like Objects created from that Class
+
+Types and Casting
+	- What's a data type? "Data Type" is findamental to understading how to program
+	- There are 2 important aspects to any given data type:
+		- 1. Size - How much memory is set aside (allocated) to be used by the data of that data type?
+		- 2. Encoding Scheme - How will the bits in memory be interpreted based on that data type?
+	- Whereas size deals with the implementation details of "how much space is needed to manage the data", the encoding scheme deals with the semantics (meaning) of the data residing in that space 
+
+
+Data Type: 
+	Float;
+	- 32 bits, representing floating point decimal values
+	Double;
+	- same as floats, but 2x the size (64 bits)
+	(fewer bits =  narrower data type, greater number of bits is wider)
+	Int;
+	- size of 32 bits. Literal values are literal values of the number assigned to the int variable
+	Examples of numeric literals:
+
+	System.out.println(42 / 5);	displays 8 since operands are int values
+	System.out.println( 42.0 / 5.0); displays 8.4 since operands are float values
+
+	Long; 
+	- 64 bit, 2x the size of int
+
+	Char:
+	- character data type, size is 16 bits.
+
+	Boolean;
+	- true or false
+
+Casting:	
+	- representing one number cast as a different data type
+
+	System.out.println((double) 42 / 5); displays 8.4 since 42 is explicitly cast as a double
+
+
+Relational Operators:
+
+	==	is equal to
+	!=	is not equal to
+	> 	is greater than
+	<	is less than
+	>=	is greater or equal to
+	<= 	is less or equal to
+
+
+Primitives
+
+	- int, long, float, double and char are called primitive data types
+	- They are rudimentary data types and are not true objects
+
+String
+
+	- is a sequence of characters
+	- String is an objects
+	- String literals are denoted through the use of ""
+	e.g System.out.println("Java");
+
+String Concatenation
+	- System.out.println("Java " + "rocks!"); // output is Java rocks!, creates a new string object that is a fusion of the previous two data elements
+
+Variables and Memory Maps
+	- Variables means having a name in memory that holds a value of a specific data type
+
+Naming convension:	CamelCase
+
+Memory Maps
+	- memory is laid out as a series of contiruous bytes
+	- 
+
+Objects are dealt with differently
+	- Variables that serve as names for Objects are called reference variables, since theyrefer to the Object that the name
+	- Reference variables hold values that point or refer to the position in memory where the Object exists
+
+	String message = "Strings are true Objects!";
+
+	...declares a reference variable named message that refers to a String Object
+
+	System.out.println(message);
+
+	... dispalys Strings are true Objects!
+
+	- The memory map view of how reference variables work looks like this
+
+	message => (32 - bit address value), of the location where the actual value of the string is stored
+
+
+Naming:
+
+	- variables, methods, classes, objects, packages, and programs
+	- Naming is an "abstraction"
+	- Abstractions help us manage complexity
+
+Method:
+	- A way of doing something
+	- is a set of one or more statements and are executed in sucession
+	- Two categories of methods
+		- 1. Class methods
+		- 2. Object methods
+	- Class methods:: belong to the Class in which they are defined
+	- Object methods belong to each Object instantiated from a given class
+	- the generak syntax for involing a Class method is:
+
+	ClassName.methodName();
+
+	System.out.println(Character.getNumericValue('Z'));  		// displays 35 representation of Z
+
+	- To invoke a Class method you do not need to have an Object instantiated from that Class. Remember: Class methods belong to the class, not to the Objects created from that Class.
+
+Object Methods: (Slide 37)
+
+	- The general syntax for invoking a Object method is:
+
+	objectReference.methodName();
+
+	Example:
+
+	String message = "Strings are true Objects!";
+
+	String lowerMessage = message.toLowerCase();
+
+
+The CLASSPATH  (slide 39)
+	- delimited set of pathnames that the Java compiler searches to find the classes that need to be loaded
+
+
+Defining Classes and Creating Objects (Slide 40)
+	- need to get latest java libraries from web site
+
+Defining Classes and Creating Objects
+
+	- The general syntax for creating an onject is:
+
+	new ClassName(parameterList);
+
+	Example
+
+	System.out.println(newWorld());
+
+	...displays A 640 X 480 workd with 0 turtles in it:
+
+	Else do the same:
+
+	World world = new World();		// Creates a World and assigns to world
+	System.out.println(world);
+
+Up to Slide 42
+
+	Turtle fred = new Turtle(world);
+	Turtle george = new Turtle(20, 40, world);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

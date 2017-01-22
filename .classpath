@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="JavaII/JavaII-Assignment1"/>
+	<classpathentry kind="src" path="JavaII/JavaII-Assignment2"/>
+	<classpathentry kind="src" path="JavaII/JavaII-Assignment3"/>
+	<classpathentry kind="src" path="JavaII/JavaII-Assignment4"/>
+	<classpathentry kind="src" path="JavaII/JavaII-Assignment5"/>
+	<classpathentry kind="src" path="JavaII/JavaII-Assignment6"/>
+	<classpathentry kind="src" path="JavaII/JavaII-Assignment7"/>
+	<classpathentry kind="src" path="JavaII/JavaII-Assignment8"/>
 	<classpathentry kind="src" path="JavaII/JavaII-wk09-Assignment"/>
 	<classpathentry kind="src" path="JavaII/JavaII-wk08-Assignment"/>
 	<classpathentry kind="src" path="JavaII/JavaII-wk01-Notes"/>
@@ -9,5 +17,6 @@
 	<classpathentry kind="src" path="JavaI/JavaI-wk02-Notes"/>
 	<classpathentry kind="src" path="JavaI/JavaI-wk01-Notes"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="/home/notroot/Java/JavaSchool/JavaII/CourseMaterial/CourseCD/bookClasses"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
