@@ -1,0 +1,85 @@
+Java II
+Assignment 8
+
+Craps!
+
+Modify the application of Section 6.10 of the Deitel & Deitel textbook to provide a GUI that enables the user to click a 
+JButton to roll the dice. The application should also display four JLabels and four JTextFields, with one JLabel 
+for each JTextField. The JTextFields should be used to display the values of each die and the sum of the dice after 
+each roll. The point should be displayed in the fourth JTextField when the user does not win or lose on the first roll 
+and should continue to be displayed until the game is lost.
+
+Submit all .java files. Submit these files together as a single zipped attachment. 
+Please use the zip format (not .rar or any other format).
+
+
+4x JLabels
+4x JTextField = display the values of each die and the sum of the dice after each roll
+
+
+------------------------------------
+
+Investigating the JLabel last element in while loop issue:
+
+https://www.google.com/search?q=Java+swing+jLabel+setText+in+a+loop
+
+http://stackoverflow.com/questions/23538005/jlabel-settext-is-only-setting-text-for-last-element-in-a-loop
+http://stackoverflow.com/questions/16455226/having-difficulty-displaying-jpanels-that-were-added-using-for-loop-and-a-meth
+http://stackoverflow.com/questions/16010990/changing-jtextfields-text-while-iterating-or-inside-a-loop
+https://www.daniweb.com/programming/software-development/threads/349785/how-to-create-jlabels-with-for-loop
+https://coderanch.com/t/433458/java/Display-real-time
+https://coderanch.com/t/434750/java/refresh-label
+http://www.codejava.net/java-se/swing/jlist-basic-tutorial-and-examples
+
+-----------------------------------------
+
+
+/*
+		
+		Layouts & Assignments:
+		http://www.cs101.org/courses/fall05/index
+		
+		
+		icons:
+		http://www.small-icons.com/packs/24x24-free-application-icons.htm
+		
+		Tutorials:
+		http://www.guru99.com/java-swing-gui.html
+		
+		https://www.google.com/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8#q=beginning%20java%20swing%20tutorial
+		https://docs.oracle.com/javase/tutorial/uiswing/examples/components/
+		
+		http://beginnersbook.com/2015/07/java-swing-tutorial/		// completed
+		
+		http://zetcode.com/tutorials/javaswingtutorial/				
+		http://zetcode.com/tutorials/javaswingtutorial/menusandtoolbars/ //ShortCutsEx.java
+		
+		Need to look at events
+		http://zetcode.com/tutorials/javaswingtutorial/swingevents/
+		
+		Programming Graphical User Interface (GUI)
+		http://www3.ntu.edu.sg/home/ehchua/programming/java/j4a_gui.html
+		https://www3.ntu.edu.sg/home/ehchua/programming/java/J4a_GUI_2.html
+		
+		
+		https://www.tutorialspoint.com/swing/swing_imageicon.htm
+		
+		The Java Tutorials: Creating a GUI with JFC.Swing ( The Swing Tutorial )
+		http://java.sun.com/docs/books/tutorial/uiswing/
+		
+		The Swing Tutorial
+		http://www.javabeginner.com/java-swing/java-swing-tutorial/
+		
+		SwingWiki: 
+		http://www.swingwiki.org
+		
+		The SwingSet2 Demo
+		<JDK Install Direcroty/demo/jfc/SwingSet2
+		
+		command line:
+		jar xf SwingSet2.jar
+		
+		*/
+		
+		
+    
