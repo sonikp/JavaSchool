@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry kind="src" path="JavaI/JavaI-Week-01-Notes/src"/>
-	<classpathentry kind="src" path="JavaII/JavaII-Week-01-Notes/src"/>
 	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="JavaII/JavaII-wk01-Notes"/>
+	<classpathentry kind="src" path="JavaII/JavaII-wk01-Assignment"/>
+	<classpathentry kind="src" path="JavaII/JavaII-wk02-Assignment"/>
+	<classpathentry kind="src" path="JavaII/JavaII-wk02-Notes"/>
+	<classpathentry kind="src" path="JavaI/JavaI-wk03-Notes"/>
+	<classpathentry kind="src" path="JavaI/JavaI-wk02-Notes"/>
+	<classpathentry kind="src" path="JavaI/JavaI-wk01-Notes"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
