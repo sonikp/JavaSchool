@@ -1,0 +1,25 @@
+public class NewAccountTest
+{
+	public static void main(String[] args)
+	{
+		
+		// creating accounts calling the NewAccount class
+		NewAccount account1 = new NewAccount("Jane Green", 50.00);
+		NewAccount account2 = new NewAccount("John Blue", 7.53);
+		
+		// original method for calling individual accounts
+		//System.out.printf("%s balance: %.2f%n", account1.getName(), account1.getBalance());
+		//System.out.printf("%s balance: %.2f%n", account2.getName(), account2.getBalance());
+
+		// new method for calling only a single reference for the methods
+		//System.out.printf("%s balance: %.2f%n", account.getName(), account.getBalance());
+
+	}
+	
+	
+	public static void displayAccount(NewAccount accountToDisplay)
+	{
+		System.out.printf("%s balance: %.2f%n", accountToDisplay.getName(), accountToDisplay.getBalance());
+	}
+	
+}

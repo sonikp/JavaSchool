@@ -1,0 +1,91 @@
+public class TestCode
+{
+	public static void main(String[] args)
+	{
+		// command line arguments
+		int num0 = 5;
+		int num1 = 7;
+		int num2 = 9;
+		
+		// create IntegerSet Array
+		int[] IntegerSet = new int[3];
+		// create Boolean set array called SetA
+		boolean[] SetA = new boolean[3];
+		
+		// Display initial values
+		System.out.println("-----Before Initialized-----");
+		System.out.print(IntegerSet[0] + " ");
+		System.out.print(IntegerSet[1] + " ");
+		System.out.print(IntegerSet[2] + " ");
+		System.out.println();
+		System.out.print(SetA[0] + " ");
+		System.out.print(SetA[1] + " ");
+		System.out.print(SetA[2] + " ");
+		System.out.println();
+		
+		// assign command line arguments to IntegerSet Array
+		IntegerSet[0] = num0;
+		IntegerSet[1] = num1;
+		IntegerSet[2] = num2;
+		
+		// Assign command line arguments to IntegerSet Array
+		System.out.println("-----After Initialized-----");
+		System.out.print(IntegerSet[0] + " ");
+		System.out.print(IntegerSet[1] + " ");
+		System.out.print(IntegerSet[2] + " ");
+		
+		
+		boolean result = testArray(5,7,9);
+		
+		System.out.println("\nresult: \t" + result);
+		
+		/*
+		System.out.println("test");
+		
+		if (args.length != 3)
+			System.out.println("error");
+		else
+		{
+			int arrayLength = Integer.parseInt(args[0]);
+			int[] array = new int[arrayLength];
+			
+			int initialValue = Integer.parseInt(args[1]);
+			int increment = Integer.parseInt(args[2]);
+			
+			for (int counter = 0; counter < array.length; counter++)
+			{
+				array[counter] = initialValue + increment * counter;				
+			}
+			
+			System.out.printf("%s%8s%n", "Index", "Value");
+			
+			for (int counter = 0; counter < array.length; counter++)
+			{
+				System.out.printf("%5d%8d%n", counter, array[counter]);
+			}
+		}
+		*/
+	}
+	
+	public static boolean testArray(int a, int b, int c)
+	{
+		this.num0 = a;
+		
+		if ( num0 == a)
+		{
+			return true;
+		}
+		else if ( num1 == b)
+		{
+			return true;
+		}
+		else if ( num2 == c)
+		{
+			return true;
+		}
+		else
+		{
+			return false;
+		}
+	}
+}

@@ -1,1 +1,1 @@
-This is the first folder for the JavaII school backup
+This is the first backup folder for my Java I classes

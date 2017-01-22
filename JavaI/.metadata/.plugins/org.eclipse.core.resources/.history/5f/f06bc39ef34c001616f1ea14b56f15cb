@@ -1,0 +1,45 @@
+import java.util.Scanner;
+
+public class Chap04ex23
+/*
+ * ex 4. 23
+ * 
+ * 
+ */
+{
+	public static void main(String[] args)
+	{
+		System.out.println("Ex 4.23 Find the 2 largest number");
+		System.out.println("-------------------------------");
+		System.out.println("Enter 5 numbers 1 at a time");
+		
+		int numInput = 0;
+		int largest = 0;
+		int otherLargest = 0;
+		
+		// create scanner object
+		Scanner scannerInput = new Scanner(System.in);
+		
+		for ( int i = 1; i <= 5; i++ )
+		{
+			System.out.print("Please enter a number : (" + i + ")\t" );
+			// receive numbers
+			numInput = scannerInput.nextInt();
+			
+			if ( numInput > largest)
+			{
+				largest = numInput;
+				System.out.println("largest\t" + largest);
+				if ( largest > otherLargest )
+				{
+					otherLargest = largest;
+					System.out.println("otherLargest\t" + otherLargest);
+				}
+			}
+		}
+		
+		System.out.println("Largest number you entered was: " + largest);
+		System.out.println("Second largest number you entered was: " + otherLargest);
+		
+	}
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;SalasyCalculator_test.java&apos; to &apos;SalaryCalculator_test.java&apos;&#x0A;- Original project: &apos;salary-calculator&apos;&#x0A;- Original element: &apos;SalasyCalculator_test.java&apos;&#x0A;- Renamed element: &apos;SalaryCalculator_test.java&apos;" description="Rename compilation unit &apos;SalasyCalculator_test.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;{SalasyCalculator_test.java" name="SalaryCalculator_test.java" references="false" stamp="1468592956907" version="1.0"/>
+</session>

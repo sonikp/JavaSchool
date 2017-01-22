@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="WorkbenchPreferenceDialogSettings">
+		<item value="83" key="DIALOG_X_ORIGIN"/>
+		<item value="87" key="DIALOG_Y_ORIGIN"/>
+	</section>
+	<section name="org.eclipse.ui.internal.QuickAccess">
+		<item value="-1" key="dialogHeight"/>
+		<item value="-1" key="dialogWidth"/>
+		<list key="textEntries">
+		</list>
+		<list key="orderedElements">
+		</list>
+		<list key="orderedProviders">
+		</list>
+		<list key="textArray">
+		</list>
+	</section>
+	<section name="FileSystemExportWizard">
+		<item value="false" key="WizardFileSystemResourceExportPage1.STORE_OVERWRITE_EXISTING_FILES_ID"/>
+		<item value="false" key="WizardFileSystemResourceExportPage1.STORE_RESOLVE_LINKED_RESOURCES_ID"/>
+		<item value="false" key="WizardFileSystemResourceExportPage1.STORE_CREATE_STRUCTURE_ID"/>
+		<list key="WizardFileSystemResourceExportPage1.STORE_DESTINATION_NAMES_ID">
+			<item value="/home/notroot/Java/homework/wk06/SetOfIntegersProject"/>
+			<item value="/home/notroot/Java/homework/wk06/bkup-TBD"/>
+			<item value="/home/notroot/Java/homework/wk06"/>
+			<item value="/home/notroot/Java/homework/wk05"/>
+		</list>
+	</section>
+	<section name="ImportExportAction">
+		<item value="org.eclipse.ui.wizards.export.FileSystem" key="ImportExportPage.STORE_SELECTED_EXPORT_WIZARD_ID"/>
+		<item value="org.eclipse.egit.ui.internal.clone.GitCloneWizard" key="ImportExportPage.STORE_SELECTED_IMPORT_WIZARD_ID"/>
+		<list key="ImportExportPage.STORE_EXPANDED_IMPORT_CATEGORIES">
+			<item value="org.eclipse.ui.Basic"/>
+			<item value="org.eclipse.egit.ui.internal.clone.gitclonecategory"/>
+		</list>
+		<list key="ImportExportPage.STORE_EXPANDED_EXPORT_CATEGORIES">
+			<item value="org.eclipse.ui.Basic"/>
+		</list>
+	</section>
+	<section name="ZipFileImportWizard">
+	</section>
+	<section name="FileSystemImportWizard">
+		<item value="false" key="WizardFileSystemResourceImportPage1.STORE_CREATE_CONTAINER_STRUCTURE_ID"/>
+		<item value="false" key="WizardFileSystemResourceImportPage1.STORE_OVERWRITE_EXISTING_RESOURCES_ID"/>
+		<list key="WizardFileSystemResourceImportPage1.STORE_SOURCE_NAMES_ID">
+			<item value="/home/notroot/Java/homework/wk10/Assignment/Template-10.13"/>
+			<item value="/home/notroot/Java/homework/wk10/Chapter10Figures"/>
+			<item value="/home/notroot/Java/homework/wk09/Template-9.3_v3"/>
+			<item value="/home/notroot/Java/homework/wk09/Attachments_2016819"/>
+			<item value="/home/notroot/Java/homework/wk09/Attachments_2016819/Computer"/>
+			<item value="/home/notroot/Java/homework/wk09/Week09Examples"/>
+			<item value="/home/notroot/Java/homework/wk09"/>
+			<item value="/home/notroot/Java/homework/wk08/Template-9.3_v3"/>
+			<item value="/home/notroot/Java/homework/wk07"/>
+			<item value="/home/notroot/Java/homework/wk06/newExtract"/>
+			<item value="/home/notroot/Downloads"/>
+			<item value="/home/notroot/Java/homework/wk06"/>
+			<item value="/home/notroot/Java/homework/wk05"/>
+			<item value="/home/notroot/Java/examples/eclipseDebugger/DebuggerTutorial"/>
+			<item value="/home/notroot/Java/examples/eclipseDebugger"/>
+			<item value="/home/notroot/Java/homework/wk03"/>
+		</list>
+	</section>
+</section>

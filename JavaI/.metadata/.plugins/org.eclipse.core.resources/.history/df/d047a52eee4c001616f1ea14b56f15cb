@@ -1,0 +1,15 @@
+public class Chap04ex22
+/*
+ * Ex 4.22 Tabular output
+ * 
+ * pseudocode:
+ * 
+ * create a loop 1 - 5
+ * multiply x * 10, x * 100, x * 1000
+ */
+{
+	public static void main(String[] args)
+	{
+		System.out.println("test");
+	}
+}

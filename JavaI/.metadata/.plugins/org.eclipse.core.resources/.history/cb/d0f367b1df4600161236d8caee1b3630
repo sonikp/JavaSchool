@@ -1,0 +1,9 @@
+public class AccOneTest
+{
+	public static void main(String[] args)
+	{
+		AccOne number = new AccOne();
+		System.out.println("Res: \t" + number.getNewNumber());
+				
+	}
+}

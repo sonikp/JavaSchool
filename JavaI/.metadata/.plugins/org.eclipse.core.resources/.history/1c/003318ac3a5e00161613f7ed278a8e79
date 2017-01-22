@@ -1,0 +1,60 @@
+/*
+ * Simulate rolling of two dice
+ * Should use object of class random once to roll two dice
+ * The sum of the two values should be calculated
+ * Each dice can show and integer from 1-6
+ * So the sum of the values should show 2-12
+ * The dice should roll 36,000,000 times
+ * 
+ */
+import java.security.SecureRandom;
+
+public class Chapt07ex17
+{
+	public static void main(String[] args)
+	{
+
+		
+		//Random Number generator
+		SecureRandom randomNumber = new SecureRandom();
+		int dice1 = 0;
+		
+		for (int roll = 1; roll <= 100; roll++)
+		{
+			dice1 = 1 + randomNumber.nextInt(6);
+			System.out.println(dice1);
+		}
+		
+		
+		//array of frequency counters
+		int[] frequency = new int[7];
+		
+		
+		
+		/*
+		// roll 6Mil times; use die value as frequency index
+		for (int roll = 1; roll <= 100; roll++)
+		{
+			++dice1[1 + randomNumber.nextInt(6)];
+		}
+		*/
+		
+	}
+	
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

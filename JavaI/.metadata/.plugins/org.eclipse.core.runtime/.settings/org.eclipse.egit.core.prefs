@@ -1,0 +1,4 @@
+GitRepositoriesView.GitDirectories=/home/notroot/workspace/hello-world/.git\:/home/notroot/workspace/.git\:/home/notroot/workspace/NewGitTest/.git\:
+GitRepositoriesView.GitDirectories.relative=hello-world/.git\:.git\:NewGitTest/.git\:
+core_defaultRepositoryDir=/home/notroot/workspace
+eclipse.preferences.version=1

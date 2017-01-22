@@ -1,0 +1,89 @@
+import java.util.Scanner;
+
+public class AccountTest
+{
+	public static void main(String[] args)
+	{
+		System.out.println("Account program: SET/GET name & balance");
+		System.out.println("---------------------------------------");
+		
+		
+		String account;
+		Account account1 = new Account("Jane Green", 50.00);
+		Account account2 = new Account("John Blue", 7.53);
+		//Account displayAccount
+		//Account account = new Account
+		
+		// display initial balance of each account
+		System.out.printf("%s balance: %.2f%n", account1.getName(), account1.getBalance());
+		System.out.printf("%s balance: %.2f%n", account2.getName(), account2.getBalance());
+		
+		// create Scanner object to obtain input from the command window
+		Scanner input = new Scanner(System.in);
+		
+
+		
+		// Account1: update
+		System.out.print("Enter deposit amount for account1: "); 					// prompt
+		double depositAmount = input.nextDouble();									// obtain input from user
+		System.out.printf("%nadding %.2f to account1 balance%n%n", depositAmount);	// print statement
+		account1.deposit(depositAmount);											// add amount via deposit method
+		
+		// display balances
+		System.out.printf("%s balance: $%.2f%n", account1.getName(), account1.getBalance());
+		System.out.printf("%s balance: $%.2f%n%n", account2.getName(), account2.getBalance());
+		// modified version
+		System.out.printf("%s balance: $%.2f%n%n", account.getName(), account.getBalance());
+		
+		// Account2: update
+		System.out.print("Enter deposit amount for account2: "); 	// prompt
+		depositAmount = input.nextDouble();		// obtain input from user
+		System.out.printf("%nadding %.2f to account2 balance%n%n", depositAmount);
+		account2.deposit(depositAmount);
+		
+		// display balances
+		System.out.printf("%s balance: $%.2f%n", account1.getName(), account1.getBalance());
+		System.out.printf("%s balance: $%.2f%n%n", account2.getName(), account2.getBalance());
+		// modified version
+		System.out.printf("%s balance: $%.2f%n%n", account.getName(), account.getBalance());
+		
+		// Account1: withdraw
+		System.out.print("Enter withdraw amount for account1: "); 	// prompt
+		double withdrawAmount = input.nextDouble();		// obtain input from user
+		System.out.printf("%nwithdrawing %.2f to account1 balance%n%n", withdrawAmount);
+		account1.withdraw(withdrawAmount);
+		
+		// display balances
+		System.out.printf("%s balance: $%.2f%n", account1.getName(), account1.getBalance());
+		System.out.printf("%s balance: $%.2f%n%n", account2.getName(), account2.getBalance());
+		// modified version
+		System.out.printf("%s balance: $%.2f%n%n", account.getName(), account.getBalance());
+		
+		// close scaner
+		if (input != null)
+		{
+			input.close();
+		}
+		
+	}
+}
+
+/*
+//--------------------------------------------------------------
+public class AccountTest
+{
+	public static void main(String[] args)
+	{
+		System.out.println("Bank Account with Savings Account and Credit Account");
+		System.out.println("----------------------------------------------------");
+		Account myAccount = new Account();		// "bob tits"
+		
+		System.out.println("Account Name:\t" + myAccount.getName());
+		
+		
+		
+		
+		
+	}
+}
+*/
