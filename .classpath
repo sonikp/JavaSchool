@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="JavaII/JavaII-Module1"/>
+	<classpathentry kind="src" path="JavaII/JavaII-Module2"/>
+	<classpathentry kind="src" path="JavaII/JavaII-Module3"/>
+	<classpathentry kind="src" path="JavaII/JavaII-Module4"/>
+	<classpathentry kind="src" path="JavaII/JavaII-Module5"/>
 	<classpathentry kind="src" path="JavaII/JavaII-Assignment1"/>
 	<classpathentry kind="src" path="JavaII/JavaII-Assignment2"/>
 	<classpathentry kind="src" path="JavaII/JavaII-Assignment3"/>
@@ -9,10 +14,6 @@
 	<classpathentry kind="src" path="JavaII/JavaII-Assignment6"/>
 	<classpathentry kind="src" path="JavaII/JavaII-Assignment7"/>
 	<classpathentry kind="src" path="JavaII/JavaII-Assignment8"/>
-	<classpathentry kind="src" path="JavaII/JavaII-wk09-Assignment"/>
-	<classpathentry kind="src" path="JavaII/JavaII-wk08-Assignment"/>
-	<classpathentry kind="src" path="JavaII/JavaII-wk01-Notes"/>
-	<classpathentry kind="src" path="JavaII/JavaII-wk02-Notes"/>
 	<classpathentry kind="src" path="JavaI/JavaI-wk03-Notes"/>
 	<classpathentry kind="src" path="JavaI/JavaI-wk02-Notes"/>
 	<classpathentry kind="src" path="JavaI/JavaI-wk01-Notes"/>

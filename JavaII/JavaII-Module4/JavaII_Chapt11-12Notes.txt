@@ -1,0 +1,12 @@
+Chapters 11 & 12
+
+- OOJ focuses on objects
+- Identify the objects needed to accomplish a task
+- Determine a type (classify them) and write a class definition for each type
+- Class definition contains info on the data for each object (the fields)
+- the different ways to intialize them, (the constructors)
+- the things the object will need to know how to do (the methods) 
+
+11.1 Identifying the object and field
+
+- one way to identify classes in a problem is to underline nouns
