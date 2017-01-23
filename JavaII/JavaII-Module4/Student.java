@@ -1,4 +1,4 @@
-public class Student extends Object
+public class Student
 
 /**
  * Class describes a student. A student has a name and a 
@@ -97,6 +97,14 @@ public class Student extends Object
 	{
 		return "Student object named: " + this.name + 
 				"\t\tAverage: " + this.getAverage();
+	}
+	
+	
+	public static void main(String[] args)
+	{
+		Student student1 = new Student("Amy Clark");
+		System.out.println(student1);
+	
 	}
 
 }
