@@ -8,7 +8,7 @@ import java.security.SecureRandom;
  */
 
 
-public class BaleOfTurtles 
+public class BaleOfTurtles extends Picture
 {
 	/*
 	  Week 02 Assignment notes:
