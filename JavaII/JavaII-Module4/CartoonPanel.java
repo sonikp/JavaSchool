@@ -12,7 +12,7 @@
 public class CartoonPanel extends Picture
 {
 	///////////////fields////////////////////////
-
+	
 	
 	///////////////constructors////////////////////////
 	/**
@@ -36,6 +36,11 @@ public class CartoonPanel extends Picture
 	
 	public static void main(String[] args)
 	{
+		String filename0 = FileChooser.getMediaPath("butterfly.jpg");
+		Picture panelImage0 = new Picture(filename0);
+		System.out.println(filename0);
+		panelImage0.explore();
+		
 		String filename1 = FileChooser.getMediaPath("butterfly1.jpg");
 		Picture panelImage1 = new Picture(filename1);
 		System.out.println(filename1);
